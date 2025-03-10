@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Tous les fonds d'investissement
+{% endblock %}
+{% block body %}
+    <h1>{{ slug|upper }}</h1>
+    <p>Client</p>
+    {{ kyc.kyc_firstname }} {{ kyc.kyc_lastname }}
+{% endblock %}
